@@ -12,7 +12,7 @@ def main():
 
 def how_are_you_callback(hermes, intent_message):
     session_id = intent_message.session_id
-    response = "How do you ask a tyrannosaur out to lunch? Tea, Rex?"
+    response = "My hands are so short!"
     hermes.publish_end_session(session_id, response)
 
 
